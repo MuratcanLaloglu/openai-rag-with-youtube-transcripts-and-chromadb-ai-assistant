@@ -31,10 +31,10 @@ This project leverages LangChain, OpenAI, ChromaDB, and Gradio to create a quest
     pip install -r requirements.txt
     ```
 3. **Set your OpenAI API key:**
-Replace "put your openai api key here" in the code with your actual OpenAI API key.
+Put your OpenAI API Key in `.env` folder.
 
 4. **Add YouTube URLs:**
-Replace "put your youtube video links here" with the URLs of the YouTube videos you want to process.
+Use `Dataset_Creator.ipynb` to create `video_links.txt`. (URLs of the YouTube videos you want to process).
 
 
 ## Usage
